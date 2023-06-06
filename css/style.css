@@ -1,0 +1,116 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+.hero-and-image {
+    display: flex;
+}
+
+.hero-section {
+    flex: 1;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.header,
+.hero-and-image {
+    background-color: #1F2937;
+}
+
+.hero-sub,
+ul {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo,
+.cta-text-big {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.info-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-pic {
+    border-radius: 15px;
+    width: 250px;
+}
+
+.info-pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.pic-and-text {
+    width: 250px;
+    height: 250px;
+}
+
+.pic-text {
+    font-size: 18px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-signature {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 21px;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+}
+
+.cta-text-small {
+    color: #F9FAF8;
+    font-size: 18px;
+}
